@@ -225,7 +225,7 @@ Analyze the third-party contract and provide a JSON response with the following 
             with st.spinner("🤖 Analyzing contracts... This may take up to 30 seconds."):
                 # Call Claude API
                 message = client.messages.create(
-                    model="claude-3-5-sonnet-20240620",
+                    model="claude-3-sonnet-20240229",
                     max_tokens=4000,
                     messages=[
                         {"role": "user", "content": prompt}
