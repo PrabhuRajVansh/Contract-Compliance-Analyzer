@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+anthropic
+pypdf
+python-docx
